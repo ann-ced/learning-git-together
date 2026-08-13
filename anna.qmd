@@ -1,0 +1,10 @@
+---
+title: Anna
+format: html
+---
+
+::: {.callout-tip}
+## angående commit
+Klicka inte discard instället för commit
+
+:::
