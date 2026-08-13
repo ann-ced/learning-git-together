@@ -1,0 +1,7 @@
+# R session junk
+.Rhistory
+.RData
+.Rproj.user/
+
+# Rendered output
+*.html
