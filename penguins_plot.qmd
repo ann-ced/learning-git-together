@@ -1,0 +1,18 @@
+# Load libraries 
+```{r}
+library(ggplot2)
+library(tidyverse)
+```
+
+# Load and view data 
+```{r}
+data(penguins)
+View(penguins)
+summary(penguins)
+```
+
+# Make a ggplot 
+```{r}
+ggplot(penguins, aes(x = bill_len, y = body_mass, color = species)) +
+    geom_point()
+```
